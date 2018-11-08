@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="Usando bem o seu dinheiro " content="Conteúdo, dicas e exemplos para que suas ecolhas sejam melhores, impactando positivamente na sua vida financeira.">
+    <meta name="keywords" content="Finanças,Dicas,Dinheiro,Economia,Educação,Economizar">
+    <meta name="author" content="Kaue Mateucci">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>U$ando bem seu $$ </title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +14,8 @@
   </head>
 
   <body>
+    <%= render 'shared/navbar' %>
     <%= yield %>
-  </body>
+    <%= render 'shared/footer' %>
+    </body>
 </html>

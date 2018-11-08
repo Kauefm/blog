@@ -1,0 +1,15 @@
+<div class="container">
+  <h3> Há <%= @posts.count %> posts a sua disposição com assuntos do seu cotidiano para ajudar na sua vida financeira. </h3>
+  <%= link_to "Criar Post", new_post_path %>
+  <div class="row">
+    <% @posts.each do |post| %>
+      <div class="col-6 col-sm-4">
+        <%= link_to post_path(post) do%>
+          <div class="card" >
+            <h3> <%= post.title %> </h3>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>

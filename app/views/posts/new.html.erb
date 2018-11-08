@@ -1,0 +1,16 @@
+<div class="container">
+  <h2> Digite o conteúdo do post: </h2>
+  <%= form_for(@post) do |f| %>
+    <div class="col-xs-3 col-sm-3">
+      <div class="row">
+        <div class="form-group">
+          <%= f.label :Titulo %>
+          <%= f.text_field :title, class: 'form-control' %>
+          <%= f.label :Conteudo %>
+          <%= f.text_area :content, class: 'form-control' %>
+          <%= f.submit class: 'btn btn-primary',  value: 'Criar Post' %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

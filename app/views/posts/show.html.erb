@@ -1,0 +1,15 @@
+<div class="container">
+  <%= link_to "Voltar a lista de todos os posts", posts_path %>
+    <h3> Este post é sobre <%= @post.title %>: </h3>
+  <div class="card-content">
+    <p> <%= simple_format(@post.content) %> </p>
+    <%= link_to "Voltar a lista de todos os posts", posts_path %>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>
+
+
+
+

@@ -1,0 +1,92 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-photo {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 3;
+  display: flex;
+}
+
+.navbar_usando_bem{
+  background-color: #8cf267;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+  text-align: center;
+  vertical-align: middle;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  color: black;
+  z-index: 2;
+}
+
+.footer {
+  position: fixed;
+  height: 25px;
+  background-color: #8cf267;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container {
+  margin-top:70px;
+  widht: 600px;
+  height: 60vh;
+}
+
+.container:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 70px;;
+  left: 0;
+  background-image: url(arvore_dinheiro.jpeg);
+  width: 100%;
+  height: 100%;
+  opacity : 0.1;
+  z-index: -1;
+}
+
+.card {
+  text-align: center;
+  border-style: solid;
+  border-color: #0E9D35;
+  color: black;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: #B5ED3C;
+  border-radius: 10px;
+  padding: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-content {
+  color: black;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-botton: 40px;
+}
+
+
+.card:hover{
+  opacity: 0.5;
+}
+
+body {
+  margin-bottom:50px;
+}
