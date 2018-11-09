@@ -4,7 +4,9 @@
 # Examples:
 
 Post.destroy_all
-
+ActiveRecord::Base.connection.tables.each do |t|
+  ActiveRecord::Base.connection.reset_pk_sequence!(t)
+end
 
 Post.create!([{ title: 'Tarifas bancárias',
 content: 'Você sabia que todo cliente de um banco pessoa física tem direito a serviços gratuitos, estabelecidos conforme art. 2º da Resolução 3.919, de 25 de novembro de 2010, incluindo os seguintes serviços:
