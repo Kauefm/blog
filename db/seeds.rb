@@ -95,6 +95,7 @@ Post.create!([{ title: 'Indicação de leitura',
 content: 'Neste #usandobemoseudinheiro, uma recomendação de leitura do maior empreendedor brasileiro, Jorge Paulo Leman e seus parceiros, que já domininaram o mercado cervejeiro mundial, compraram ícones da maior economia do mundo, como Heinz, Burger King e Budweiser, tem participações majoritárias da mais valiosa empresa da América Latina, AMBEV.
 Jorge Paulo Leman tem um estilo de gestão que basicamente tira o ser humano da zona de conforme, valorizando talentos através da meritocracia, forte  foco e esforço na redução de custos e aumento em participação de mercado. Tudo isto junto e bem aplicado não poderia ter outra consequência que não seja melhorar o EBITDA das empresas por onde sua gestão foi aplicada.
 Um ícone reconhecido internacionalmente no mundo dos negócios com a mesma nacionalidade nossa, provando que não somos somente uma terra de samba e futebol.
+O livro chama-se "Sonho Grande" da autora Cristiane Correa.
 Boa leitura a todos.'  }])
 
 
